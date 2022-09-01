@@ -1,0 +1,19 @@
+
+General:
+
+- Call Animations by Name: You can now call animations by name.
+- Animation List: You can now use the DumpAnimationListToFile() method to get a list of named animations in a MD2 model.
+- Actor Helpers: A new actor interface has been added and two actor helpers. These helpers allow you to make use of your models (e.g. make them move around) with minimum effort.
+- Camera Helpers: A camera interface and two pre-made camera helpers have been added. StandardCamera allows you to quickly establish a view, while MouseBoundCamera gives you an easy to configure zoomable, rotatable camera.
+- Camera Attachment: Cameras can be attached to actors, and will automatically follow and focus on the actor they are attached to.
+
+Tutorial Specific:
+
+- While the worker classes remain loosely commented, the main tutorial class is now heavily commented and much cleaner.
+- The tutorial now has a (albiet basic) floor!
+
+Known Issues:
+
+- The code in the actual worker classes (which you don't have to look at, really) is messy as hell. The main/only developer has been ill and in a rush to release something after a week of downtime the focus was on features and commenting the tutorial class.
+- The MouseBoundCamera follows the actor it is attached to, but does not auto-rotate to stay behind the actor as is typical of such cameras.
+- The player's (knight's) running animation looks a little strange . . . this is simply because to make it look good requires playing with the movement speed / max frames per second of the actor / model. These are easily configurable, and examples are given, so this was not a major concern of the poor old ill main/only developer.

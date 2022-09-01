@@ -9,3 +9,17 @@ This is a legacy project. I originally submitted this to [SourceForge in 2007](h
 
 # Copyright
 Creative Commons Attribution-ShareAlike 3.0 Australia (CC BY-SA 3.0 AU)
+
+# Tutorial Help
+
+W - Move knight foward.
+A - Turn knight to its left.
+D - Turn knight to its right.
+
+Mouse Scroll - Zoom In or Out
+
+F12 - Enable or Disable camera rotation.
+
+H - Center camera on knight.
+
+Hold Right Mouse Button down and move mouse to rotate camera if camera rotation is enabled (toggle with F12).

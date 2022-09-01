@@ -13,7 +13,9 @@ Creative Commons Attribution-ShareAlike 3.0 Australia (CC BY-SA 3.0 AU)
 # Tutorial Help
 
 W - Move knight foward.
+
 A - Turn knight to its left.
+
 D - Turn knight to its right.
 
 Mouse Scroll - Zoom In or Out
